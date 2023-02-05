@@ -1,0 +1,5 @@
+var=true
+
+while true; do
+    echo toto; break; echo titi
+done

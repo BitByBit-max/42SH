@@ -1,0 +1,7 @@
+var=Elise
+
+if echo "hello"; then
+    echo $var
+fi
+
+echo "muhahaha"

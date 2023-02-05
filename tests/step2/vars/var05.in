@@ -1,0 +1,8 @@
+commit_message="wip(testsuite):  Work in progress!"
+followtags='deploy-42sh'
+options='--follow-tags --force'
+
+echo "git add --force .";
+echo "git commit -m $commit_message";
+echo "git tag -a $followtags -m $followtags";
+echo "git push $options";

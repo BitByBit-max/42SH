@@ -1,0 +1,24 @@
+#!/bin/bash
+
+string="Hello, world!"
+
+case $string in
+  "Hello, world!")
+    echo "Matched string: Hello, world!"
+    ;;
+  "Hello,*")
+    echo "Matched string: Hello,*"
+    ;;
+  "H[ae]llo,*")
+    echo "Matched string: H[ae]llo,*"
+    ;;
+  "H[^e]llo,*")
+    echo "Matched string: H[^e]llo,*"
+    ;;
+  "H.*o,*")
+    echo "Matched string: H.*o,*"
+    ;;
+  *)
+    echo "No match found"
+    ;;
+esac

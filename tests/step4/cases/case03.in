@@ -1,0 +1,23 @@
+#!/bin/bash
+
+talk()
+{
+    case "${name}" in
+        "Elise")
+            echo "hello elise"
+            ;;
+        "Enrique")
+            echo "wake up enrique"
+            ;;
+        "Elsa")
+            echo "is it done yet?"
+            ;;
+    esac
+}
+
+name="Elsa"
+talk
+name="Enrique"
+talk
+name="Elise"
+talk

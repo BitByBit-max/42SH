@@ -1,0 +1,13 @@
+foo()
+{
+    bar()
+    {
+        echo "foobar"
+    }
+}
+
+echo "calling foo"
+foo
+
+echo "calling bar"
+bar

@@ -1,0 +1,5 @@
+echo "toto" 1>toto 2>tata
+cat toto
+cat tata
+rm toto
+rm tata

@@ -1,0 +1,3 @@
+echo "Hello World" >&2 > error.log
+cat error.log
+rm error.log

@@ -1,0 +1,3 @@
+echo idk what to write anymore
+if true; then echo hi; #kill me
+fi

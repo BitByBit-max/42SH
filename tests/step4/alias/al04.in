@@ -1,0 +1,7 @@
+alias caca="echo caca" coco="echo coco"
+
+alias
+
+unalias caca
+
+alias

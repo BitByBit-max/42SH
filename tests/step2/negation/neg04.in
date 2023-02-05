@@ -1,0 +1,8 @@
+if echo hi; then
+	if true; then
+		if ! false; then
+
+			echo hi;
+			fi
+			fi
+			fi

@@ -1,0 +1,13 @@
+var=true
+
+while true; do
+
+    if $var; then
+        var=false;
+        echo continue;
+        continue;
+    else
+        echo break;
+        break;
+    fi
+done

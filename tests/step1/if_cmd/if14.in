@@ -1,0 +1,1 @@
+if echo Hello; then echo inside if; echo Good Bye; fi

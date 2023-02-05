@@ -1,0 +1,5 @@
+var1=23
+echo "$var1"   # 23
+
+{ var1=76; }
+echo "$var1"   # 76

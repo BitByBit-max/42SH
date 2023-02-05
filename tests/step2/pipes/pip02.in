@@ -1,0 +1,1 @@
+ls  -al / | grep "^d" | awk '{print $9}' | sort -r | head -n 5

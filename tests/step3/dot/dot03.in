@@ -1,0 +1,7 @@
+echo "
+    echo "are you afraid?"; var=no ; echo "or"; ( var=$(echo yes); echo $var ); echo $var
+" > testfile
+
+. ./testfile
+
+rm testfile

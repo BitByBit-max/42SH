@@ -1,0 +1,2 @@
+output=$({ echo "hello"; echo "world"; } | tr ' ' '_')
+echo $output

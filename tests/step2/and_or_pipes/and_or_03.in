@@ -1,0 +1,1 @@
+echo "Operators can likely be used to serve as ifs" || echo "This should not print, and is equivalent to" || echo "this second if expression." && echo "This should print, and is equivalent to" && echo "this second if expression." || echo "this second if expression."

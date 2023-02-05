@@ -1,0 +1,4 @@
+a=hehe
+b=hihi
+
+echo "a${a}b${b}"

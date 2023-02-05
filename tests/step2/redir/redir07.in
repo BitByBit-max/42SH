@@ -1,0 +1,5 @@
+echo "This is the original content of the file" > file1.txt
+cat <> file1.txt > file2.txt
+diff file1.txt file2.txt
+echo $?
+rm file1.txt file2.txt

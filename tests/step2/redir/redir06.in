@@ -1,0 +1,3 @@
+echo "initial contents" > file.txt
+cat <> file.txt
+rm file.txt

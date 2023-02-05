@@ -1,0 +1,2 @@
+(output=$(expr 3); exit $output)
+echo $?

@@ -1,0 +1,6 @@
+if echo hello
+echo hi
+then
+echo d
+echo e; echo f; echo g
+fi

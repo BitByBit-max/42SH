@@ -1,0 +1,6 @@
+echo pairs list:
+seq 0 2 10
+echo
+
+echo impairs list:
+seq 1 2 9

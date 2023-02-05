@@ -1,0 +1,18 @@
+#!/bin/bash
+
+string="Hello World"
+
+case "$string" in
+    [A-Z]*)
+        echo "The string starts with an uppercase letter."
+        ;;
+    *[0-9]*)
+        echo "The string contains a number."
+        ;;
+    *[!A-Za-z0-9]*)
+        echo "The string contains a special character."
+        ;;
+    *)
+        echo "The string does not match any of the above patterns."
+        ;;
+esac

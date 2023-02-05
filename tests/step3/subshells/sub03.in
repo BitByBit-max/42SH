@@ -1,0 +1,2 @@
+(echo "subshell"; exit 42; echo never executed)
+echo "subshell exited with status $?"

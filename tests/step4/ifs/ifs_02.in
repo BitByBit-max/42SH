@@ -1,0 +1,13 @@
+var="one	t"
+
+for i in "$var"; do
+    echo $i
+done
+
+var="o	three"
+
+for i in "$var"; do
+    echo $i
+done
+
+

@@ -1,0 +1,1 @@
+/bin/echo "`/bin/echo ` `/bin/echo Pierre` et `/bin/echo Timothee`"

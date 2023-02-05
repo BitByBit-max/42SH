@@ -1,0 +1,4 @@
+touch out.txt
+echo hi > out.txt
+cat < out.txt
+rm out.txt

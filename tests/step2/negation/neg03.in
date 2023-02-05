@@ -1,0 +1,4 @@
+if ! true; false;
+then
+echo hello hello;
+fi

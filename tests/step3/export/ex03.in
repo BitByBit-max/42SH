@@ -1,0 +1,1 @@
+echo $var; export var=hi; echo $var

@@ -1,0 +1,1 @@
+{ echo "apple"; echo "banana"; echo "cherry"; } | grep "a"

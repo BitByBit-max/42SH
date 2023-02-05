@@ -1,0 +1,1 @@
+if false; then echo false; elif true; then echo true; else echo neither;fi

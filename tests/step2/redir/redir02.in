@@ -1,0 +1,5 @@
+1>2 echo hello >toto hi
+cat toto
+cat 2
+rm 2
+rm toto

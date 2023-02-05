@@ -1,0 +1,20 @@
+#!/bin/bash
+
+input_string="hello world"
+
+case $input_string in
+    # match a string that starts with "hello"
+    hello*)
+        echo "The string starts with 'hello'"
+        ;;
+
+    # match a string that contains "world"
+    *world*)
+        echo "The string contains 'world'"
+        ;;
+
+    # match any other string
+    *)
+        echo "The string does not match any of the other cases"
+        ;;
+esac

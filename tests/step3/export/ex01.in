@@ -1,0 +1,4 @@
+export a=b bc=ah;
+
+
+echo $a and $bc

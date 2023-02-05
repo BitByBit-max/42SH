@@ -1,0 +1,6 @@
+foo=hello
+bar=world
+baz=hi
+echo $foo $bar $baz
+unset foo bar baz
+echo $foo $bar $baz

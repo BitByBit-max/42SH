@@ -1,0 +1,5 @@
+talk()
+{
+   echo "hi! $1 $2"
+}
+talk mother fucker;

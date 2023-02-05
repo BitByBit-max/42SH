@@ -1,0 +1,1 @@
+/bin/echo "x$(/bin/echo -e xd\\n\\n)d"

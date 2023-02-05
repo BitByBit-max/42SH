@@ -1,0 +1,5 @@
+var="first  second"
+
+IFS=' ';for i in "$var"; do
+	echo $i; echo "$i"
+done

@@ -1,0 +1,6 @@
+var="  first
+second"
+
+IFS=$'\n';for i in "$var"; do
+	echo $i; echo "$i"
+done

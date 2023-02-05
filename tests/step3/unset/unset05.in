@@ -1,0 +1,6 @@
+foo() {
+    echo "Hello, World!"
+}
+foo
+unset -f foo
+foo 2>/dev/null

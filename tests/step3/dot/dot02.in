@@ -1,0 +1,5 @@
+echo "echo \"hello\", how are you?" > testfile
+
+. ./testfile
+
+rm testfile

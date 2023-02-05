@@ -1,0 +1,11 @@
+say_hello()
+{
+	echo "hello $1!!";
+	( echo "How are you?" && echo "are you okay ?" ) | grep "How";
+} > in
+
+say_hello "Elise"
+
+cat in
+
+rm in

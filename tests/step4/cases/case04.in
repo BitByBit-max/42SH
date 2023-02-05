@@ -1,0 +1,7 @@
+fruit="kiwi"
+case $fruit in "apple") echo "apple is tasty";;
+"banana") echo "I like banana";;
+"kiwi") echo "Newzeland is famous for kiwi";;
+*)
+Echo "default case";;
+esac

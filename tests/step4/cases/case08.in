@@ -1,0 +1,15 @@
+#!/bin/bash
+
+input_string="123456"
+
+case $input_string in
+    # match a string that is a number
+    [[:digit:]]*)
+        echo "The string is a number"
+        ;;
+
+    # match any other string
+    *)
+        echo "The string is not a number"
+        ;;
+esac

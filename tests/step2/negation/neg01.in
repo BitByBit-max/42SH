@@ -1,0 +1,6 @@
+if ! false;
+then echo hi;
+
+else echo true;
+
+fi

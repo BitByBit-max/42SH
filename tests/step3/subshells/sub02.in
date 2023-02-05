@@ -1,0 +1,1 @@
+var=sh; (var=42; echo $var); echo $var

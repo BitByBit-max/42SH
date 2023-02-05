@@ -1,0 +1,4 @@
+for color in "red" "green" "blue"; 
+do
+	echo $color; 
+done

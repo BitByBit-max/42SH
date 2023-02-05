@@ -1,0 +1,7 @@
+var="test 	 ok"
+
+echo $var
+
+IFS='o'
+
+echo $var

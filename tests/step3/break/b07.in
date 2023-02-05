@@ -1,0 +1,6 @@
+while true; do
+    	break
+    	echo this shouldnt be reached
+done
+
+echo should be reached

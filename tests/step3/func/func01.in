@@ -1,0 +1,7 @@
+foo()
+{
+    echo hello;
+    echo hi;
+}
+
+foo

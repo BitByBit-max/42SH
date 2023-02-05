@@ -1,0 +1,14 @@
+var=elise
+
+main()
+{
+    echo "hello $var"
+    if true; then
+        echo "how are you?";
+    fi
+    echo $1
+} > in
+
+main good
+cat in
+rm in

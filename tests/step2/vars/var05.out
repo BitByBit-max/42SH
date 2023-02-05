@@ -1,0 +1,4 @@
+git add --force .
+git commit -m wip(testsuite):  Work in progress!
+git tag -a deploy-42sh -m deploy-42sh
+git push --follow-tags --force

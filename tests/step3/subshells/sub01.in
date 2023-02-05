@@ -1,0 +1,1 @@
+var=$(echo hi); echo "$var";

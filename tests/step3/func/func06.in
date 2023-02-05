@@ -1,0 +1,9 @@
+func() {
+    if $1
+        then echo good job;
+    else
+        echo fuck you;
+    fi
+}
+func true;
+func false;

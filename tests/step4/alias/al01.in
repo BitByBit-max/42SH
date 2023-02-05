@@ -1,0 +1,7 @@
+alias caca='echo caca' ahoj='echo ahoj'
+
+if true; then
+    caca;
+fi
+
+alias caca

@@ -1,0 +1,3 @@
+Operators can likely be used to serve as ifs
+This should print, and is equivalent to
+this second if expression.

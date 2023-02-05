@@ -1,0 +1,14 @@
+
+
+hello()
+{
+    echo how are you??;
+} > out > in
+
+hello
+
+cat out
+cat in
+
+rm out
+rm in
